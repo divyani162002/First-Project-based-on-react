@@ -1,0 +1,23 @@
+{
+  "name": "first-project-based-on-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/divyani162002/First-Project-based-on-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/divyani162002/First-Project-based-on-react/issues"
+  },
+  "homepage": "https://github.com/divyani162002/First-Project-based-on-react#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
