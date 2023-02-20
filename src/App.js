@@ -9,7 +9,7 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-
+//  this is the heart file f this prject
 
 function App() {
   const [mode, setMode] = useState('light');//whether dark mode is enable or not
@@ -49,7 +49,7 @@ function App() {
 
   };
 
-  return (
+  return (//this is my first cmmit 
     <>
     <BrowserRouter>*/
     <Navbar title="TextUtils" mode={mode} toogleMode={toogleMode} />
