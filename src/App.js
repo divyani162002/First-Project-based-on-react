@@ -1,15 +1,16 @@
 import './App.css';
-import About from './components/About';
+// import About from './components/About';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
 import React, { useState } from 'react';
 import Alert from './components/Alert';
-import {
-  BrowserRouter,
-  Routes,
-  Route
-} from "react-router-dom";
+// import {
+//   BrowserRouter,
+//   Routes,
+//   Route
+// } from "react-router-dom";
 //  this is the heart file f this prject
+//
 
 function App() {
   const [mode, setMode] = useState('light');//whether dark mode is enable or not
@@ -49,21 +50,22 @@ function App() {
 
   };
 
-  return (//this is my first cmmit 
-    <>
-    <BrowserRouter>*/
+  return (
+  <>
+
+    {/* <BrowserRouter> */}
     <Navbar title="TextUtils" mode={mode} toogleMode={toogleMode} />
       <Alert alert={alert} />
       <div className="container" my="3">
-      <Routes>
+      {/*<Routes>
         <Route  exact path="/about" element={ <About />} />
        
-        <Route exact path="/" element={
+<Route exact path="/" element={*/}
         <TextForm  showAlert={showAlert} heading="Enter the text to analyze" mode={mode} /> 
-        } />
-      </Routes>   
+         {/* />} 
+      </Routes>    */}
      </div>
-    </BrowserRouter>
+    {/* </BrowserRouter> */}
   
     </>
   );
